@@ -1,0 +1,22 @@
+.board-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.square{
+    width: 4rem;
+    height: 4rem;
+    border-color: #1acdfe;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+.square:hover{
+    filter: brightness(75%);
+}
+
+.status{
+    order: 1;
+    margin: 1rem;
+}

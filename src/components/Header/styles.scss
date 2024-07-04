@@ -1,0 +1,28 @@
+.header {
+    background-image: linear-gradient(#2797c7, #1acdfe);
+    border-bottom: 3px solid #1acdfe;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    z-index: 9999;
+  }
+  
+  .header span {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: white;
+    padding-inline: 0.5rem;
+    font-size: 1.5rem;
+  }
+  

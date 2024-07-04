@@ -1,0 +1,17 @@
+.main {
+  color: aqua;
+}
+
+#welcome_container {
+  overflow: hidden;
+  width: 100%;
+  min-height: 100vh;
+  background-image: radial-gradient(rgb(162, 239, 244), #64e7e9);
+  color: black;
+  padding-inline: 1rem;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}

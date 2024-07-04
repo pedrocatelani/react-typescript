@@ -1,0 +1,9 @@
+.game{
+    display: flex;
+    flex-direction: row;
+}
+
+.game-board{
+    display: flex;
+    flex-direction: row;
+}

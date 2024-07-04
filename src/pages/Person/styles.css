@@ -1,0 +1,24 @@
+.message_box{
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+.message_box h1, p{
+    margin-inline: auto;
+    width: fit-content;
+}
+
+#sucess {
+    background-image: radial-gradient(#aaf2ff,#76c5fd);
+}
+
+#error {
+    background-image: radial-gradient(#fda9a9,#ff7777);
+}
+
+#error a {
+    text-decoration: underline;
+    color: black;
+}

@@ -1,0 +1,19 @@
+*faça funcionar o select primeiro
+->após, brincar com onChange e onSelect:
+extrair as chaves usando o type off
+tentar tipar o valor resultante do select com as possiveis chaves do objeto
+
+**tentar fazer uma renderização opcional do select
+(se vc escolher a opção 1, mostra os campos 1 e 2 e etc...)
+
+para estudo do key off type off:
+--cria um objeto (chave, valor)
+para utilizar no select:
+transforma em um array, e formata para as opções do select
+
+-------------------------------
+useEffect -> Roda após o componente terminar de montar - Acarreta em validações, caso o
+componente esteja esperando uma variável do context.
+
+----------------------------------
+-> Devorar a doc do React =)
